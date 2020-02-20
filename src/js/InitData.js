@@ -4,7 +4,7 @@ export default function initData() {
   params.append('description', 'Поменять краску в ринтере, ком404');
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://ahj-7-1-1.herokuapp.com/');
+  xhr.open('POST', 'https://git.heroku.com/ahj-7-1-1.git');
   xhr.addEventListener('load', () => {
     if (xhr.status === 200) {
       console.log(xhr.responseText);
