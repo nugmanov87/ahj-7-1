@@ -4,7 +4,7 @@ export default function initData() {
   params.append('description', 'Поменять краску в принтере, ком404');
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://ahj-7-1.herokuapp.com/');
+  xhr.open('POST', 'https://ahj-7-1-1.herokuapp.com/');
   xhr.addEventListener('load', () => {
     if (xhr.status === 200) {
       console.log(xhr.responseText);

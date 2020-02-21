@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-const server = 'https://ahj-7-1.herokuapp.com/';
+const server = 'https://ahj-7-1-1.herokuapp.com/';
 // const server = 'http://localhost:7070';
 
 export default class XHR {
